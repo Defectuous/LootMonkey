@@ -6,8 +6,8 @@ using System.Collections.Generic;
 using System.Linq;
 using ArcheBuddy.Bot.Classes;
 
-namespace DefaultNameSpace{
-   public class DefaultClass : Core
+namespace ArcheAgeLootMonkey{
+   public class LootMonkey : Core
    {
        public static string GetPluginAuthor()
        { return "Defectuous";}
