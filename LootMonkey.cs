@@ -18,11 +18,11 @@ namespace DefaultNameSpace{
 
         // [ Start Configuration ]
         // General Stuff [ true = Roll ] [ false = No Roll ]
-        public bool _Unknown       = false; // Unknown Items not Listed here
+        public bool _Unknown       = false;  // Unknown Items not Listed here
         public bool _Purses        = false;  // CoinPurses
         public bool _StolenBag     = false;  // Stolen Bags
-        public bool _ScratchedSafe = false; // Scratched Safe's
-        public bool _Unid          = false; // Unidentified items ( Knighblade items and stuff )
+        public bool _ScratchedSafe = false;  // Scratched Safe's
+        public bool _Unid          = false;  // Unidentified items ( Knighblade items and stuff )
 
         // Auroria Stuff
         public bool _DivineCloth   = false;  // Auroria Cloth
