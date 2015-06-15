@@ -12,7 +12,7 @@ namespace ArcheAgeLootMonkey{
        public static string GetPluginAuthor()
        { return "Defectuous";}
        public static string GetPluginVersion()
-       { return "1.0.0.15"; }
+       { return "1.0.0.27"; }
        public static string GetPluginDescription()
        { return "Loot Monkey: Making Loot Management Easy"; }
 
@@ -57,6 +57,10 @@ namespace ArcheAgeLootMonkey{
         public bool _EternalLibraryTome   = false;  // Eternal Library Tome
         public bool _Ayanad               = false;  // Ayanad Costume Design Scrap 
         public bool _CornerReadingRoomOrb = false;  // Corner Reading Room Orb
+        
+        // Design Fragments
+        public bool _SingedVehicle = false;  // Design Fragment: Singed Vehicle
+        public bool _BlackPearl    = false;  // Design Fragment: Black Pearl
         
         // [ End Configuration ]
        
@@ -124,6 +128,10 @@ namespace ArcheAgeLootMonkey{
                         else if (item.id == 32050) doRoll = _EternalLibraryTome;
                         else if (item.id == 32060) doRoll = _Ayanad;
                         else if (item.id == 32221) doRoll = _CornerReadingRoomOrb;
+                        
+                        // Design Fragments
+                        else if (item.id == 24122) doRoll = _SingedVehicle; 
+                        else if (item.id == 24121) doRoll = _BlackPearl;
                         
                         item.Dice(doRoll);
 
